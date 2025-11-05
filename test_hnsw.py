@@ -12,3 +12,4 @@ def test_evaluate_hnsw():
     output_lines = [int(index.strip()) for index in output_lines]
     assert output_lines == expected, "Output does not match expected output"
     
+test_evaluate_hnsw()
